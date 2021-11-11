@@ -1,0 +1,18 @@
+.container{
+    border: 0px solid blue;
+    width: 1350px;
+    height: 500px;
+
+}
+.header{
+    border: 0px solid black;
+    width: 1350px;
+    height:75px;
+    background-color: chartreuse;
+    text-align: center;
+}
+.home{
+    width: 250px;
+    float: right;
+}
+

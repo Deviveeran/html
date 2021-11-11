@@ -1,0 +1,61 @@
+.wrapper{
+    border: 1px solid black;
+    width: 1200px;
+    height: 1000px;
+    background-color:gray;
+    padding: 60px;
+}
+.maincontent{
+    width: 1199px;
+    height: 999px;
+    background-color: darkolivegreen;
+}
+.menu{
+    border: 1px solid black;
+    width: 1199pxpx;
+    height: 74px;
+    background-color:white;
+    
+}
+.heading{
+    border: 1px;
+    width: 400px;
+    height:73px ;
+  
+    float: left;
+}
+.webintro{
+    border: 1px;
+    width: 1199px;
+    height: 400px;
+}
+.webdetails{
+    border: 1px;
+    width: 1199px;
+    height: 450px;
+    background-color:white;
+}
+.left{
+    border: 0px;
+    width: 399px;
+    height: 449px;
+    float: left;
+}
+.centre{
+    border: 0px;
+    width: 399px;
+    height: 449px;
+    float: left;
+}
+.right{
+    border: 0px;
+    width: 395px;
+    height: 449px;
+    float: left;
+}
+.footer{
+    border: 1px;
+    width: 1199px;
+    height: 74px;
+    background-color: darkmagenta;
+}

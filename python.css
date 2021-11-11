@@ -1,0 +1,42 @@
+.wrapper{
+    border: 0px solid red;
+    width: 1350px;
+    height: 1000px;
+   
+}
+.header{
+    border: 0px solid black;
+    height: 75px;
+    width: 1350px;
+    background-color:greenyellow;
+
+}
+.centrecontainer{
+    border: 1px solid black;
+    height: 923px;
+    width: 1350px;
+}
+.leftcontainer{
+    border:1px solid blue;
+    height: 923px;
+    width: 446px;
+    float: left;
+}
+.rightcontainer{
+    border: 1px solid blue;
+    width: 900px;
+    height: 923px;
+    float:right;
+}
+.home{
+    border: 0px solid blue;
+    width: 300px;
+    height: 74px;
+    float: right;
+}
+.logo{
+    border: 1px solid black;
+    width: 100px;
+    height: 73px;
+    float: left;
+}

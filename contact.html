@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    h2{
+        
+        color: red;
+    }
+    input[type=submit]{
+        width: 150px;
+        color: red;
+    }
+    a{
+        text-decoration: none;
+        float:right;
+        color: black;
+        box-sizing: border-box;
+    }
+    a:hover{
+        text-decoration: none;
+        float:right;
+        color: black;
+        box-sizing: border-box;
+        background-color: red;
+    }
+</style>
+<body>
+    <h1>CONTACT US</h1>
+    <form action="">
+        <table>
+            <tr><th colspan="2"><h2>Contact Details</h2></th></tr>
+            <tr>
+                <td><label for="name"><h3>Name:</h3></label></td>
+                <td><input id="name" type="text" placeholder="Enter your name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><h3>Email id:</h3></label></td>
+                <td><input id="email" type="email" placeholder="Enter your Email id" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password"><h3>Password:</h3></label></td>
+                <td><input id="pass" type="password" placeholder="Enter your password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="nationality"><h3>Nationality:</h3></label></td>
+                <td>Indian <input type="checkbox" name="indian">
+                    Others<input type="checkbox" name="others">
+                    </td>
+            </tr>
+            <tr>
+                <td><label for="religion"><h3>Religion:</h3></label></td>
+                <td>Hindu<input type="radio" name="radio"> &nbsp;&nbsp;Others<input type="radio" name="radio"></td>
+            </tr>
+            <tr>
+                <td><label for="place"><h3>Place:</h3></label></td>
+                <td><select name="branch" id="">
+                    <option>Chennai</option>
+                    <option>Tiruvannamalai</option>
+                    <option>Madurai</option>
+                    <option>Tirunelveli</option>
+                    <option>salem</option>
+                    <option>Trichy</option>
+                    <option>Dharmapuri</option>
+                    <option>Tenkasi</option> <option>
+                </select>
+            </td>
+           <tr><td colspan="2">
+                <input type="submit" value="sign-up">
+           </td></tr>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <a href="layout.html">BACK TO HOME</a>
+</body>
+</html>
